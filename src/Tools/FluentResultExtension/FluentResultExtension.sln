@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentResultExtension", "FluentResultExtension\FluentResultExtension.csproj", "{B4F2A8BC-4BDA-4FB1-AA0E-94D8662BF9AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4F2A8BC-4BDA-4FB1-AA0E-94D8662BF9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F2A8BC-4BDA-4FB1-AA0E-94D8662BF9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F2A8BC-4BDA-4FB1-AA0E-94D8662BF9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F2A8BC-4BDA-4FB1-AA0E-94D8662BF9AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B824D699-4DFD-4B49-A46F-56C6B24D1499}
+	EndGlobalSection
+EndGlobal

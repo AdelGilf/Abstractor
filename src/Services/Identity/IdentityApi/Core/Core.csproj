@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="6.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.20.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Contracts\Contracts.csproj" />
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FluentResultExtension">
+      <HintPath>..\..\..\..\Tools\FluentResultExtension\FluentResultExtension\bin\Release\net6.0\FluentResultExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentValidatorExtension">
+      <HintPath>..\..\..\..\Tools\FluentValidatorExtension\FluentValidatorExtension\bin\Debug\net6.0\FluentValidatorExtension.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
